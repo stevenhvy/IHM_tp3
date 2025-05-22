@@ -67,7 +67,7 @@ public class FenetreAnalyste extends Application {
         precedent.setContentDisplay(ContentDisplay.LEFT);
 
 
-        Button precedent = new Button("Question précédente", imgPrec);
+        Button p = new Button("Question précédente", imgPrec);
 
 
 
@@ -78,8 +78,8 @@ public class FenetreAnalyste extends Application {
         ImageView imageView = new ImageView(image);
         Image image2 = new Image("file:graphics/chart_2.png"); 
         ImageView imageView2 = new ImageView(image2);
-         ImageView imageView3 = new ImageView("file:graphics/chart_3.png");
-         ImageView imageView4 = new ImageView("file:graphics/chart_4.png");
+        ImageView imageView3 = new ImageView("file:graphics/chart_3.png");
+        ImageView imageView4 = new ImageView("file:graphics/chart_4.png");
           ImageView imageView5 = new ImageView("file:graphics/chart_5.png");
             ImageView imageView6 = new ImageView("file:graphics/chart_6.png");
              ImageView imageView7 = new ImageView("file:graphics/chart_7.png");
